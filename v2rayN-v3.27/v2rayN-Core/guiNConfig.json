@@ -1,0 +1,86 @@
+{
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": 0,
+  "vmess": [
+    {
+      "configVersion": 2,
+      "address": "155.94.144.49",
+      "port": 24242,
+      "id": "fa912c9b-47d0-4ff8-9a4e-62348e9b32bb",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "233v2.com_155.94.144.49",
+      "headerType": "http",
+      "requestHost": "www.baidu.com",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "configType": 1,
+      "testResult": "0.26 M/s",
+      "subid": "",
+      "flow": ""
+    }
+  ],
+  "muxEnabled": false,
+  "domainStrategy": "IPIfNonMatch",
+  "routingMode": "0",
+  "useragent": [],
+  "userdirect": [],
+  "userblock": [],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "listenerType": 0,
+  "speedTestUrl": "http://cachefly.cachefly.net/10mb.test",
+  "speedPingTestUrl": "https://www.google.com/generate_204",
+  "urlGFWList": "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt",
+  "allowLANConn": false,
+  "enableStatistics": true,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 2000,
+  "remoteDNS": "",
+  "defAllowInsecure": false,
+  "subItem": [
+    {
+      "id": "c468818b-8a8e-45b8-905e-98a612617f11",
+      "remarks": "import sub",
+      "url": "https://tlanyan.me/download.php",
+      "enabled": true
+    }
+  ],
+  "uiItem": {
+    "mainSize": "1049, 788",
+    "mainLvColWidth": {
+      "def": 30,
+      "configType": 80,
+      "remarks": 100,
+      "address": 120,
+      "port": 50,
+      "security": 90,
+      "network": 70,
+      "subRemarks": 50,
+      "testResult": 118,
+      "todayDown": 106,
+      "todayUp": 70,
+      "totalDown": 70,
+      "totalUp": 70
+    }
+  },
+  "userPacRule": []
+}

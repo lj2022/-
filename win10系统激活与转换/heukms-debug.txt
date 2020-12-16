@@ -1,0 +1,66 @@
+>>>>>>>>>>>v19.6.4日志生成时间 2020/12/12  19:48:35  [KMS模式1,  OEM模式1,  Windows 10 Pro Version 10.0.10240.16384,  X64]
+
+点击按钮“使用 KMS 激活 Windows”......
+
+【ActivateWindows.log】
+Executing (\\DESKTOP-14ON70T\root\cimv2:SoftwareLicensingProduct.ID="2de67392-b7a7-462a-b1ca-108dd189f588")->Activate()
+Method execution successful.
+Out Parameters:
+instance of __PARAMETERS
+{
+};
+
+【KMSSet.log】
+Executing (\\DESKTOP-14ON70T\root\cimv2:SoftwareLicensingService.Version="10.0.10240.16384")->SetKeyManagementServiceMachine()
+Method execution successful.
+Out Parameters:
+instance of __PARAMETERS
+{
+};
+Executing (\\DESKTOP-14ON70T\root\cimv2:SoftwareLicensingService.Version="10.0.10240.16384")->SetKeyManagementServicePort()
+Method execution successful.
+Out Parameters:
+instance of __PARAMETERS
+{
+};
+执行(\\DESKTOP-14ON70T\root\cimv2:SoftwareLicensingService.Version="10.0.10240.16384")->SetVLActivationTypeEnabled()
+方法执行成功。
+外参数:
+instance of __PARAMETERS
+{
+};
+Executing (\\DESKTOP-14ON70T\root\cimv2:SoftwareLicensingProduct.ID="2de67392-b7a7-462a-b1ca-108dd189f588")->ClearKeyManagementServiceMachine()
+Method execution successful.
+Out Parameters:
+instance of __PARAMETERS
+{
+};
+Executing (\\DESKTOP-14ON70T\root\cimv2:SoftwareLicensingProduct.ID="2de67392-b7a7-462a-b1ca-108dd189f588")->ClearKeyManagementServicePort()
+Method execution successful.
+Out Parameters:
+instance of __PARAMETERS
+{
+};
+Executing (\\DESKTOP-14ON70T\root\cimv2:SoftwareLicensingService.Version="10.0.10240.16384")->RefreshLicenseStatus()
+Method execution successful.
+Out Parameters:
+instance of __PARAMETERS
+{
+};
+
+【MSInfo.log】
+ Windows Edition: Professional 
+
+【WindowsKey.log】
+Microsoft (R) Windows Script Host Version 5.812
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+成功地安装了产品密钥 W269N-WFGWX-YVC9B-4J6C9-T83GX。
+
+
+【WindowsOSVersion.log】
+Windows 10 Pro,10.0.10240.16384 
+许可状态：激活成功 
+剩余时间：259200分钟(180天) 
+ 
+
